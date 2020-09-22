@@ -1,2 +1,2 @@
 # Arrays
-Optimized Code in java.
+Optimized Code of common array questions in java.
