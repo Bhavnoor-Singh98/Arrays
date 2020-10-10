@@ -17,4 +17,15 @@ public class LinkedList {
 	private Node head;
 	private Node tail;
 	private int size;
+	
+	
+// $$$$$$$$$$ traversing linkedList    $$$$$$$$$$$$$$$
+	public void display() {
+		Node temp=this.head;
+		while(temp!=null)
+		{
+			System.out.println(temp.data);
+			temp=temp.next;
+		}
+	}
 }
